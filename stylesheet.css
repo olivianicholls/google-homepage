@@ -10,19 +10,16 @@ li {
   list-style-type: none;
   padding: 6px;
 }
-
 li a {
 text-decoration: none;
 color: #555555;
 font-size: 13px;
 font-family: sans-serif;
 }
-
 li a:hover {
   text-decoration: underline;
   color: black;
 }
-
 .fa:hover {
   color: black;
 }
@@ -48,31 +45,36 @@ i {
   align-items: center;
   justify-content: center
 }
-
 .logoimage {
   height: 220px;
   margin-bottom: -30px;
   margin-top: 90px;
 }
-
 .searchbar{
   display: flex;
   align-items: center;
   justify-content: center
-  }
-
-form {
-  	margin:0 auto;
 }
 .search {
 	padding:6px 10px 6px 30px;
 	margin-left: 30px;
   width: 550px;
-  font-size: 28px;
+  height: 30px;
+  font-size: 20px;
   box-shadow: 0px 1px 5px rgba(136, 136, 136, 0.8);
   border: 0px;
+  display: inline-block;
 }
-
+.search:focus {
+  outline: none;
+}
+.search-mic {
+  display: inline-block;
+  position: absolute;
+  height: 20px;
+  margin-left: -30px;
+  margin-top: -10px;
+}
 .buttons {
   align-items: center;
   justify-content: center;
@@ -88,7 +90,6 @@ form {
   border: 1px solid white;
   background-color: #efefef;
 }
-
 button:hover {
   border: 1px solid #bbbbbb;
   color: #222222;
@@ -96,7 +97,6 @@ button:hover {
 }
 .wrapper {
 position: relative;
-
 }
 .footbar {
 position: fixed;
@@ -105,20 +105,17 @@ width: 100%;
 background-color: #efefef;
 border: 1px solid #dddddd;
 }
-
 .l-foot-ul {
 float: left;
 margin-left: -20px;
 margin-bottom: 12px;
 margin-top: -10px;
 }
-
 .r-foot-ul {
 float: right;
 margin-right: 5px;
 margin-top: -10px;
 }
-
 .foot-li {
 padding: 13px;
 }
