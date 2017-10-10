@@ -20,12 +20,28 @@ font-family: sans-serif;
 
 li a:hover {
   text-decoration: underline;
+  color: black;
+}
+
+.fa:hover {
+  color: black;
 }
 i {
   color: #555555;
 }
-.fa-user-circle {
-  color: #d15b17;
+.sign-in-btn {
+  background-color: #4286f4;
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 11px;
+  border: 1px solid white;
+  width: 65px;
+  border-radius: 5px;
+}
+
+.sign-in-btn:hover {
+  color: white;
 }
 .logo {
   display: flex;
@@ -62,7 +78,7 @@ form {
   justify-content: center;
   display: flex;
 }
-button {
+.searchbtn {
   padding: 10px 16px 10px 16px;
   margin: 30px 5px 0 5px;
   font-family: arial, sans-serif;
